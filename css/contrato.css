@@ -1,0 +1,22 @@
+.sistema{
+    width: 75vw;
+    height: 35vw;
+    border: solid 1px #000;
+    margin: auto;
+    background: url(https://vdo.campanhaporto.com.br/vdo/lps/seguros/bike/static/img/cover.bike.desktop.jpg);
+    background-size: 75vw 35vw ;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.construcao{
+    width: 500px;
+    margin: auto;
+}
+.construcao h1{
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;    
+}

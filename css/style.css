@@ -1,0 +1,160 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+font-size: 62.5%;
+}
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 7.8125vw;
+    height: 4.427083vw;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    height: 13vh;
+    margin: auto;
+    margin-bottom: 2.604167vw;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.3vw;
+    margin-right: 2.34375vw;
+}
+
+header nav a{
+    display: flex;
+    text-decoration: none;    
+    color: #000;
+    font-size: 2.3rem;
+    border-radius: 1.78125vw;
+    border: solid 1px #0086bf;
+    padding: 5px;
+}
+.section-home{
+    width: 80%;
+    height: 55vh;
+    margin: auto;
+    display: flex;
+
+}
+header a:hover{
+    color: #0086bf;
+    border: solid 1px #000;
+
+}
+.logo a:hover{
+    border: none;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    margin-bottom: .520833vw;
+}
+
+.hero h2 {
+    font-size: 3.2rem;
+    font-weight: normal;
+    margin-bottom: .520833vw;
+    width: 70% ;
+}
+
+.hero h2 span {
+    color: #009ee2;
+}
+
+.hero p {
+    font-size: 1.197917vw;
+    color: #707070;
+}
+
+.hero p i {
+    color: #009ee2;
+}
+
+.hero button {
+    padding: .520833vw;
+    background: #009ee2;
+    color: white;
+    border: none;
+    border-radius: .3125vw;
+    transition: 0.2s all;
+    cursor: pointer;
+    margin-top: 1.041667vw;
+    font-size: 2.0rem;
+}
+
+.hero button:hover {
+    background: #0086bf;
+}
+.hero button:active{
+    background: #009ee2;
+}
+
+section h1 span{
+    text-decoration: underline #0086bf;
+    text-underline-offset: .260417vw;
+}
+.img-bike{
+    width: 750px;
+    height: 450px;
+    border-radius: 15px 0px 0px 15px;
+}
+hr{
+    position: relative;
+    width: 75%;
+    border-color: #0086bf63;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.hero .container{
+   height: 450px;
+}
+footer{
+    width: 70%;
+    height: 16.5vh;
+    margin: auto;
+}
+footer i {
+color: #0086bf94;
+font-size: 3.5rem;
+}
+footer li a{
+display: flex;
+flex-direction: row;
+text-decoration: none;
+align-items: center;
+color: #0086bf;
+font-size: 1.5rem;
+}
+footer nav{
+margin-top: 4vh;
+}
+
+footer img{
+    width: 3.645833vw;
+}
+.direitos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sobre{
+    width: 70%;
+    height: 60vh;
+    display: flex ;
+    margin: auto;
+    flex-direction: column;
+    padding: 0;
+}
+
+.sobre h1{
+    font-size: 4rem;
+}
+.sobre p{
+    font-size: 1.8rem;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.sobre h3{
+    font-size: 3rem;
+}
+.sobre img{
+    width: 60%;
+    border-radius: 0 20px;
+}
+.sobre li{
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+.sobre i{
+    font-size: 4.5rem;
+}
+.content{
+    width: 150px;
+    font-size: 1.5rem;
+}
+hr{
+    margin-top: 7vw;
+}

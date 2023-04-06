@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faq{
+    width: 80%;
+    margin: auto;
+    background-color: #f7f7f7b4;
+    min-height: 80vh;
+    height: auto;
+    border-radius: 10px;
+}
+.faq h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.container-faq{
+    width: 70%;
+    height: auto;
+    background-color: #009ee2;
+    min-height: 70vh;
+    border-radius: 10px;
+    padding: .520833vw;
+    text-align: left;
+    margin: auto;
+    line-height: 2.604167vw;
+
+}
+.pergunta{
+    font-size: 3.0rem;
+    line-height: 8vh;
+}
+.resposta{
+    font-size: 2rem;
+    line-height: normal;
+}
